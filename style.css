@@ -1,0 +1,63 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	margin-bottom: 150px;
+}
+
+.search {
+	margin-top: 20px;
+}
+
+.content {
+	display: flex
+	justify-content: center;
+}
+
+
+.footerup {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.lienfooter {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 13px;
+}
+
+.footerdown {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerleft {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.footerright {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+/*
+
+#content {
+	padding-top: 109px;
+}
+
+/* #content 
+
+
+
+*/
