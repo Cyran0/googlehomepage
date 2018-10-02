@@ -115,7 +115,6 @@ ul {
 }
 
 .recherchebouton:hover {
-
 	color: black;
 	border: none;
 	border-radius: 2px;
@@ -124,6 +123,11 @@ ul {
 }
 
 /* contenu en bas niveau supérieur */
+
+.Pays {
+	color:grey;
+}
+
 .footerup {
 	position: absolute;
 	bottom: 2em;	
@@ -141,6 +145,11 @@ ul {
 	padding-left: 8px;
 	padding-right: 8px;
 	font-size: 13px;
+}
+
+
+.footerdown a {
+	color:grey;
 }
 
 .footerdown {
