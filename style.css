@@ -8,14 +8,30 @@
 
 input {
 	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
 }
 
 /* entete */
+
+/*
 .header {
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
 	margin-bottom: 150px;
+	padding: 5px;
+
+
+}
+
+*/
+
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: right;
+	text-align: center;
 }
 
 .lienheader {
@@ -27,9 +43,11 @@ input {
 .boutonconnexion {
 	background-color: rgb(67,135,253);
 	color: white;
-	padding: 0.4em;
-	padding-right: 0.7em; 
-	padding-left: 0.7em;
+	padding: 0.7em;
+	padding-right: 1.1em; 
+	padding-left: 1.1em;
+	border-width: 0;
+
 }
 
 /* contenu au centre */
@@ -51,8 +69,6 @@ input {
 	flex-direction: row;
 	text-align: center;
 	justify-content: center;
-	text-align: center;
-
 }
 
 
@@ -76,14 +92,12 @@ input {
 	justify-content: space-between;
 	position: absolute;
 	bottom: 0;
-
 }
 
 .footerleft {
 	display: flex;
 	flex-direction: row;
 	justify-content: left;
-
 }
 
 .footerright {
