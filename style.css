@@ -10,16 +10,26 @@
 	margin-bottom: 150px;
 }
 
-.search {
-	margin-top: 20px;
-	margin: auto;
-}
-
 .content {
 	display: flex
 	justify-content: center;
 	margin: auto;
+	text-align: center;
+	
 }
+
+.search {
+
+
+}
+
+
+
+/* 	
+text-align: justify;
+
+*/
+
 
 .recherche {
 	display: flex;
@@ -27,11 +37,11 @@
 	margin: auto;
 }
 
-
-
 .footerup {
 	padding-left: 10px;
 	padding-right: 10px;
+	position: absolute;
+	bottom: 2em;
 }
 
 
@@ -44,6 +54,9 @@
 .footerdown {
 	display: flex;
 	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+
 }
 
 .footerleft {
@@ -59,14 +72,3 @@
 
 }
 
-/*
-
-#content {
-	padding-top: 109px;
-}
-
-/* #content 
-
-
-
-*/
