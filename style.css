@@ -12,12 +12,21 @@
 
 .search {
 	margin-top: 20px;
+	margin: auto;
 }
 
 .content {
 	display: flex
 	justify-content: center;
+	margin: auto;
 }
+
+.recherche {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
 
 
 .footerup {
