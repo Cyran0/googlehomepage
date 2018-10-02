@@ -8,12 +8,20 @@
     <body>
         <div class ="container">
             <div class ="header">
-                <p><a href="https://www.google.com/gmail/about/">Gmail</a></p>
-                <p><a href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a></p>
-                <img src="img/googleapps.png" alt="Lien apps google">
-                <form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/">
+                <div class="lienheader">
+                    <p><a href="https://www.google.com/gmail/about/">Gmail</a></p>
+                </div>
+                <div class="lienheader">
+                    <p><a href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a></p>
+                </div>
+                <div class="lienheader">
+                    <img src="img/googleapps.png" alt="Lien apps google">
+                </div>
+                <div class="lienheader">
+                    <form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/">
                     <input type="submit" value="Connexion" />
-                </form>
+                    </form>
+                </div>
             </div>
 
             <div class ="content">
@@ -23,8 +31,8 @@
 
                 <div class ="search">
                     <form action="https://google.com/search" method="get">
-                <input type="hidden" name="sitesearch"/>
-                <input type="text" name="q" />
+                <input class ="box" type="hidden" name="sitesearch"/>
+                <input class="box" type="text" name="q" />
                 </form>
                 <br />
                 <br />
@@ -76,7 +84,7 @@
                         <div class="lienfooter">
                             <p><a href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a></p>
                         </div>
-                        
+
                         <div class="lienfooter">
                             <p><a href="https://www.google.com/preferences?hl=fr">Paramètres</a></p>
                         </div>
