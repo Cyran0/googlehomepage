@@ -1,14 +1,21 @@
+/* contient tout */
 .container {
 	display: flex;
 	flex-direction: column;
+	font-family: arial, sans-serif;
+
 }
 
+input {
+	font-family: arial, sans-serif;
+}
+
+/* entete */
 .header {
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
 	margin-bottom: 150px;
-
 }
 
 .lienheader {
@@ -17,39 +24,39 @@
 	font-size: 13px;
 }
 
-.content {
+.boutonconnexion {
+	background-color: rgb(67,135,253);
+	color: white;
+	padding: 0.4em;
+	padding-right: 0.7em; 
+	padding-left: 0.7em;
+}
 
+/* contenu au centre */
+.content {
 	justify-content: center;
-	margin: auto;
 	text-align: center;
-	
 }
 
 .search {
 	height: 50px;
-
 }
 
-.box
-{
+.box {
 	width: 32em;
 }
-
-/* 	
-text-align: justify;
-	margin: auto;
-
-*/
-
 
 .recherche {
 	display: flex;
 	flex-direction: row;
-	margin: auto;
-
+	text-align: center;
+	justify-content: center;
+	text-align: center;
 
 }
 
+
+/* contenu en bas niveau supérieur */
 .footerup {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -57,7 +64,7 @@ text-align: justify;
 	bottom: 2em;
 }
 
-
+/* contenu en bas niveau inférieur */
 .lienfooter {
 	padding-left: 8px;
 	padding-right: 8px;
