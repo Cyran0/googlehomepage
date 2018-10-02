@@ -1,9 +1,10 @@
+
+
 /* contient tout */
 .container {
 	display: flex;
 	flex-direction: column;
 	font-family: arial, sans-serif;
-
 }
 
 input {
@@ -27,26 +28,42 @@ input {
 
 */
 
+a:link {
+	text-decoration: none;
+	color: rgba(0,0,0,0.9);
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+a:visited {
+	color: rgba(0,0,0,0.9);
+}
+
 ul {
 	list-style-type: none;
 	display: flex;
 	justify-content: right;
-	text-align: center;
+	margin-bottom: 140px;
+	align-items: center;
 }
 
 .lienheader {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
 	font-size: 13px;
+	margin-bottom: 1em;
 }
 
 .boutonconnexion {
 	background-color: rgb(67,135,253);
 	color: white;
-	padding: 0.7em;
-	padding-right: 1.1em; 
-	padding-left: 1.1em;
+	padding: 0.57em;
+	padding-right: 1.2em; 
+	padding-left: 1.05em;
 	border-width: 0;
+	font-size: 13px;
 
 }
 
@@ -58,10 +75,30 @@ ul {
 
 .search {
 	height: 50px;
+	margin-top: 1.6em;
+}
+
+.pays {
+
+	color: rgba(0,0,0,0.9);
+
 }
 
 .box {
-	width: 32em;
+	background-color: #fff;
+	height: 42px;
+	max-width: 584px;
+	width: 48em;
+	margin: -1px 0px 1px;
+	padding-left: 1.1em;
+	vertical-align: top;
+	border: none;
+	border-radius: 2px;
+	border-color: rgba(0,0,0,0.16);
+	border-top: 0.5px solid rgba(0,0,0,0.16);
+	box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	font-size: 1em;
 }
 
 .recherche {
@@ -69,15 +106,43 @@ ul {
 	flex-direction: row;
 	text-align: center;
 	justify-content: center;
+	margin-top: 1em;
 }
 
+.recherchebouton {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+	line-height: 2.5em;
+}
+
+.recherchebouton:hover {
+
+	color: black;
+	border: none;
+	border-radius: 2px;
+	border-color: rgba(0,0,0,0.16);
+	border: 0.5px solid rgba(0,0,0,0.16);
+}
 
 /* contenu en bas niveau supérieur */
 .footerup {
-	padding-left: 10px;
+	padding-left: 30px;
 	padding-right: 10px;
 	position: absolute;
-	bottom: 2em;
+	bottom: 2em;	
+	border-top:1px solid rgb(230,230,230);
+	background:  rgb(240,240,240);
+	width:100%;
 }
 
 /* contenu en bas niveau inférieur */
@@ -91,7 +156,11 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
-	bottom: 0;
+	bottom: 0;	
+	padding-left: 23px;
+	border-top:1px solid rgb(230,230,230);
+	background:  rgb(240,240,240);
+	width:100%;
 }
 
 .footerleft {
